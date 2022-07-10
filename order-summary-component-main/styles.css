@@ -1,0 +1,85 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+.body{
+    text-align: center;
+
+    
+}
+.image>img{
+    width:100%;
+    
+}
+.text>h1,.att>h3{
+    color: hsl(223, 47%, 23%);
+}
+.text>p{
+    padding: 0 2.5em; 
+    font-size:16px;
+    font-weight:500;
+}
+.mid{
+    background-color:hsl(225, 100%, 98%) ;
+    display:flex;
+    justify-content: space-between;
+    padding:0 1em;
+    padding:0 1em;
+    margin:1.2em;
+    border-radius: 1em;
+    
+    
+}
+.left{
+    display:flex;
+    padding:1em;
+}
+.left img{
+    height:3em;
+    width:3em;
+}
+.box{
+    width:25em;
+    height:570px;
+    margin:auto;
+    border-radius: 10px;
+    background-color: white;
+    overflow:hidden;
+    margin-top: 10vh;
+}
+.att *{
+    margin:0;
+    padding:0;
+    padding-left: 0.4em;
+}
+.att>h3{
+    padding-bottom: 0.4em;
+}
+.link{
+    margin:auto;
+}
+.link button{
+    width:90%;
+    padding:1em;
+    border:none;
+    border-radius: 0.4em;
+    font-size: 17px;
+    font-weight:700;
+    margin-bottom: 1em;
+}
+.link a{
+    text-decoration: none;
+    font-weight: 1000;
+}
+.link1 {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+button{
+    background-color: hsl(245, 75%, 52%) ;
+    color:white;
+    border-radius: 10px;
+}   
+.text>p,.att>p,.link a{
+    color:#777;
+}
